@@ -87,4 +87,4 @@ class Settings(BaseSettings):
         return f"postgresql+psycopg2://{self._DB_URL_BASE}"
 
 
-settings = Settings()  # ty: ignore[missing-argument]
+settings = Settings()
