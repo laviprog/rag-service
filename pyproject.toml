@@ -15,10 +15,10 @@ dependencies = [
 [dependency-groups]
 api = [
     "asyncpg>=0.31.0",
-    "fastapi>=0.139.2",
+    "fastapi>=0.140.9",
     "markitdown[docx,pdf]>=0.1.6",
-    "openai>=2.48.0",
-    "prometheus-fastapi-instrumentator>=8.0.2",
+    "openai>=2.49.0",
+    "prometheus-fastapi-instrumentator>=8.1.0",
     "python-multipart>=0.0.32",
     "qdrant-client>=1.18.0",
     "redis>=8.0.1",
@@ -35,7 +35,7 @@ dev = [
     "pytest>=9.1.1",
     "pytest-cov>=7.0.0",
     "ruff>=0.16.0",
-    "ty>=0.0.63",
+    "ty>=0.0.64",
 ]
 
 [tool.uv]
