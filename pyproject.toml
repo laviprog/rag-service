@@ -8,22 +8,22 @@ dependencies = [
     "advanced-alchemy==1.11.0",
     "pydantic-settings>=2.14.2",
     "structlog>=26.1.0",
-    "cryptography>=49.0.0",
+    "cryptography>=50.0.0",
     "argon2-cffi>=25.1.0"
 ]
 
 [dependency-groups]
 api = [
     "asyncpg>=0.31.0",
-    "fastapi>=0.139.2",
-    "markitdown[docx,pdf]>=0.1.6",
-    "openai>=2.48.0",
-    "prometheus-fastapi-instrumentator>=8.0.2",
+    "fastapi>=0.141.1",
+    "markitdown[docx,pdf]>=0.1.7",
+    "openai>=2.53.0",
+    "prometheus-fastapi-instrumentator>=8.1.0",
     "python-multipart>=0.0.32",
     "qdrant-client>=1.18.0",
-    "redis>=8.0.1",
+    "redis>=8.1.0",
     "scalar-fastapi>=1.8.2",
-    "uvicorn[standard]>=0.51.0",
+    "uvicorn[standard]>=0.52.1",
 ]
 migrate = [
     "alembic>=1.18.5",
@@ -34,8 +34,8 @@ dev = [
     "pre-commit>=4.6.1",
     "pytest>=9.1.1",
     "pytest-cov>=7.0.0",
-    "ruff>=0.16.0",
-    "ty>=0.0.63",
+    "ruff>=0.16.1",
+    "ty>=0.0.66",
 ]
 
 [tool.uv]
